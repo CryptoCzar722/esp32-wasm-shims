@@ -1,0 +1,3 @@
+#pragma once
+#include "Arduino.h"
+class LiquidCrystal_I2C { public: LiquidCrystal_I2C(uint8_t addr, uint8_t cols, uint8_t rows) { (void)addr;(void)cols;(void)rows; } void init() {} void begin(uint8_t cols, uint8_t rows) { (void)cols;(void)rows; } void backlight() {} void noBacklight() {} void clear() {} void setCursor(uint8_t col, uint8_t row) { (void)col;(void)row; } void print(const char* s) { (void)s; } void print(int val) { (void)val; } void print(float val, int dec = 2) { (void)val;(void)dec; } void print(const String& s) { (void)s; } void noDisplay() {} void display() {} void createChar(uint8_t num, uint8_t* data) { (void)num;(void)data; } };

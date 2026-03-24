@@ -1,0 +1,4 @@
+#pragma once
+#include "soc/soc.h"
+#define RTC_CNTL_BROWN_OUT_REG (DR_REG_RTCCNTL_BASE + 0x00D4)
+#define RTC_CNTL_WDTCONFIG0_REG (DR_REG_RTCCNTL_BASE + 0x008C)
